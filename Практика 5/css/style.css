@@ -1,0 +1,70 @@
+@import url(reset.css);
+.stats{
+	display: flex;
+}
+
+.brief{
+	position: absolute;
+	background: gold;
+	color: black;
+	width: 300px;
+	height: 1060px;
+	top: 500px;
+}
+.bio{
+	position: absolute;
+	background: gold;
+	color: black;
+	width: 300px;
+	left: 310px;
+	height: 1060px;
+	top: 500px;
+}
+.activity{
+	position: absolute;
+	background: gold;
+	color: black;
+	width: 300px;
+	left: 620px;
+	height: 1060px;
+	top: 500px;
+}
+.image-container{
+	position: absolute;
+	width: 920px;
+	height: 1200px;
+	top: 70px;
+	left: 120px;
+}
+.header-container{
+	position: absolute;
+	width: 400px;
+	height: 80px;
+	top: 10px;
+	left: 150px;
+	font-size: 50px;
+	line-height: 70px;
+	background: gold;
+}
+.menu{
+	position: absolute;
+	width: 350px;
+	height: 80px;
+	top: 10px;
+	left: 580px;
+	background: gold;
+}
+.links{
+	background: gold;
+	position: absolute;
+	width: 920px;
+	height: 130px;
+	top: 1570px;
+}
+.footer-container{
+	background: gold;
+	position: absolute;
+	width: 920px;
+	height: 20px;
+	top: 1710px;
+}
