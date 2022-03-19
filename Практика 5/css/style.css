@@ -1,40 +1,44 @@
 @import url(reset.css);
-.stats{
-	display: flex;
+.head{
+	position: absolute;
+	width: 1280px;
+	height: 225px;
+	left: 0px;
+	top: 0px;
+	background: gold;
 }
 
 .brief{
 	position: absolute;
 	background: gold;
 	color: black;
-	width: 300px;
+	width: 420px;
 	height: 1060px;
-	top: 500px;
+	top: 820px;
 }
 .bio{
 	position: absolute;
 	background: gold;
 	color: black;
-	width: 300px;
-	left: 310px;
+	width: 420px;
+	left: 430px;
 	height: 1060px;
-	top: 500px;
+	top: 820px;
 }
 .activity{
 	position: absolute;
 	background: gold;
 	color: black;
-	width: 300px;
-	left: 620px;
+	width: 420px;
+	left: 860px;
 	height: 1060px;
-	top: 500px;
+	top: 820px;
 }
 .image-container{
 	position: absolute;
 	width: 920px;
 	height: 1200px;
-	top: 70px;
-	left: 120px;
+	top: 100px;
 }
 .header-container{
 	position: absolute;
@@ -44,7 +48,6 @@
 	left: 150px;
 	font-size: 50px;
 	line-height: 70px;
-	background: gold;
 }
 .menu{
 	position: absolute;
@@ -52,19 +55,78 @@
 	height: 80px;
 	top: 10px;
 	left: 580px;
-	background: gold;
 }
 .links{
 	background: gold;
 	position: absolute;
-	width: 920px;
-	height: 130px;
-	top: 1570px;
+	width: 1280px;
+	height: 230px;
+	top: 1900px;
 }
 .footer-container{
 	background: gold;
 	position: absolute;
-	width: 920px;
+	width: 1280px;
 	height: 20px;
-	top: 1710px;
+	top: 2150px;
+}
+.sectionTextbrief{
+	position: absolute;
+	width: 274px;
+	height: 70px;
+	left: 100px;
+	font-size: 60px;
+	color: black;
+}
+.sectionTextbio{
+	position: absolute;
+	width: 274px;
+	height: 70px;
+	left: 100px;
+	font-size: 60px;
+	color: black;
+}
+.sectionTextactivity{
+	position: absolute;
+	width: 274px;
+	height: 70px;
+	left: 100px;
+	font-size: 60px;
+	color: black;
+}
+.sectionTextlinks{
+	position: absolute;
+	width: 274px;
+	height: 70px;
+	left: 500px;
+	font-size: 60px;
+	color: black;
+}
+.mainTextbrief{
+	position: absolute;
+	width: 400px;
+	left: 10px;
+	top: 100px;
+	color: black;
+}
+.mainTextbio{
+	position: absolute;
+	width: 400px;
+	left: 10px;
+	top: 100px;
+	color: black;
+}
+.mainTextactivity{
+	position: absolute;
+	width: 400px;
+	left: 10px;
+	top: 100px;
+	color: black;
+}
+.mainlinks{
+	position: absolute;
+	width: 400px;
+	left: 10px;
+	top: 100px;
+	color: black;
 }
