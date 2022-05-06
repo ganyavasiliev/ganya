@@ -47,7 +47,7 @@ function getNextAge(a){
 	if(a==""){
 		return 0;
 	}else{
-		return a + 1;
+		return Number(a) + 1;
 	}
 }
 
